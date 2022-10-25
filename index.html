@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <form action="" method="post" autocomplete="" id="form">
+        <div class="container">
+            <table cellpadding="8" cellspacing="8" align="center">
+                <div class="header">
+                    <caption><h2>Registration Form</h2></caption>
+                </div>
+                <tr>
+                    <th align="left"><label for="name">FULL NAME</label></th>
+                    <td><input type="text" name="name" placeholder="Full Name" required></td>
+                </tr>
+                <tr>
+                    <th align="left"><label for="email">EMAIL</label></th>
+                    <td><input type="email" name="email" placeholder="abc@gmail.com" required></td>
+                </tr>
+                <tr>
+                    <th align="left"><label for="mobile">MOBILE</label></th>
+                    <td><input type="tel" name="mobile" placeholder="8888888888"></td>
+                </tr>
+                <tr>
+                    <th align="left"><label for="address">ADDRESS</label></th>
+                    <td><textarea name="address"  placeholder="Address" rows="4" cols="20"></textarea></td>
+                </tr>
+                <tr>
+                    <th align="left"><label for="state">STATE</label></th>
+                    <td><input type="text" name="state" placeholder="State"></td>
+                </tr>
+                <tr>
+                    <th align="left"><label for="district">DISTRICT</label></th>
+                    <td><input type="text" name="district" placeholder="District"></td>
+                </tr>
+                <tr>
+                    <th align="left"><label for="gender">GENDER</label></th>
+                    <td><input type="radio" name="gender" required>&nbsp<label for="male">Male</label>
+                        <input type="radio" name="gender">&nbsp<label for="female">Female</label></td>
+                </tr>
+                <tr>
+                    <th align="left"><label for="dob">DATE OF BIRTH</label></th>
+                    <td><input type="date" name="dob" min="2000-01-01" max="2015-12-31" required></td>
+                </tr>
+                <tr>
+                    <th align="left"><label for="qualification">QUALIFICATION</label></th>
+                    <td>
+                        <select name="qualification">
+                            <option value="btech">B TECH</option>
+                            <option value="mtech">M TECH</option>
+                            <option value="MCA">MCA</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th align="left"><label for="hobbies">HOBBIES</label></th>
+                    <td><input type="checkbox" name="coding"><label for="coding">Coding</label>
+                    <input type="checkbox" name="reading" checked><label for="reading">Reading</label>
+                    <input type="checkbox" name="editing"><label for="editing">Editing</label></td>
+                </tr>
+                <tr>
+                    <th align="left"><label for="my_profile">MY PROFILE</label></th>
+                    <td><input type="url" name="my_profile"  placeholder="linkedin URL"></td>
+                </tr>
+                <tr>
+                    <th align="left"><label for="skill">MY SKILLS LEVEL</label></th>
+                    <td><input type="range" name="range" value="0"></td>
+                </tr>
+                <tr>
+                    <th align="left"><label for="my_photo">MY PHOTO</label></th>
+                    <td><input type="file" name="my_photo"></td>
+                </tr>
+                <tr>
+                    <th align="left"><label for="resume">RESUME</label></th>
+                    <td align="left"><input type="file" name="resume"></td>
+                </tr>
+                <tr>
+                    <th align="left"><label for="birth_time">PASSWORD</label></th>
+                    <td align="left"><input type="password" name="password"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="Submit" onclick="window.location.href = 'Portfolio/index.html';"  style="color: rgb(0, 4, 255);font: bold 14px Arial;"></button>
+                   
+                    </td>
+                    
+                    <td><input type="reset" style="color: rgb(4, 0, 255);font: bold 14px Arial;" value="Reset"></td>
+                </tr>
+            </table>
+        </div>
+    </form>
+</body>
+</html>
